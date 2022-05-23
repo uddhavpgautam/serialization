@@ -1,0 +1,40 @@
+{
+  "apartments": [
+    {
+      "gym": "true",
+      "school": "true",
+      "store": "false",
+      "office": "false"
+    },
+    {
+      "gym": "false",
+      "school": "true",
+      "store": "false",
+      "office": "false"
+    },
+    {
+      "gym": "true",
+      "school": "true",
+      "store": "false",
+      "office": "false"
+    },
+    {
+      "gym": "true",
+      "school": "false",
+      "store": "false",
+      "office": "true"
+    },
+    {
+      "gym": "false",
+      "school": "false",
+      "store": "false",
+      "office": "true"
+    },
+    {
+      "gym": "true",
+      "school": "true",
+      "store": "false",
+      "office": "false"
+    }
+  ]
+}
