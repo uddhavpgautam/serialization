@@ -3,6 +3,7 @@ package moshi_serialization
 import com.squareup.moshi.JsonAdapter
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.Types
+import java.lang.reflect.ParameterizedType
 
 class Example3Moshi {
     data class Label(val url: String, val id: Long, val name: String)
@@ -30,7 +31,7 @@ fun main() {
         .add(com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory())
         .build()
 
-    val listType = Types.newParameterizedType(List::class.java, Example3Moshi.Label::class.java)
+    val listType: ParameterizedType = Types.newParameterizedType(List::class.java, Example3Moshi.Label::class.java)
     val labelAdapter: JsonAdapter<List<Label>> = moshi.adapter(listType)
     val label = labelAdapter.fromJson(jsonString)
     println(label)

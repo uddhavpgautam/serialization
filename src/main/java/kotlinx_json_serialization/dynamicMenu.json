@@ -1,0 +1,22 @@
+{
+  "data": {
+    "type": "navMenu",
+    "menu_items": [
+      {
+        "id": "nav_slideshow",
+        "name": "Slideshow",
+        "onclick": "SlidShowFragment"
+      },
+      {
+        "id": "nav_slideshow",
+        "name": "Slideshow",
+        "onclick": "SlidShowFragment"
+      },
+      {
+        "id": "nav_slideshow",
+        "name": "Slideshow",
+        "onclick": "SlidShowFragment"
+      }
+    ]
+  }
+}
